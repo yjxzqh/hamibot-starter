@@ -19,4 +19,36 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
+    "fileheader.customMade": {
+        "Author": "git config user.name",
+        "Date": "Do not edit",
+        "LastEditors": "git config user.name",
+        "LastEditTime": "Do not edit",
+        "FilePath": "no item name",
+        "Description": "",
+    },
+    "fileheader.configObj": {
+        "autoAdd": true,
+        "autoAddLine": 1000,
+        "prohibitAutoAdd": [
+            "json",
+            "md"
+        ],
+        "folderBlacklist": [
+            "node_modules",
+            "dist",
+            ".eslintignore",
+            ".gitignore",
+            ".eslintrc.js"
+        ],
+        "specialOptions": {
+            "Date": "CreateDate",
+            "LastEditTime": "LastTime",
+            "LastEditors": "LastEditor",
+        },
+        "filePathColon": "\\\\",
+        "CheckFileChange": true,
+        "createHeader": true,
+        "useWorker": true,
+    }
 }
