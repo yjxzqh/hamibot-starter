@@ -1,0 +1,7 @@
+/node_modules
+/dist
+/buildConfig
+.DS_Store
+.eslintrc.js
+.github
+.vscode
