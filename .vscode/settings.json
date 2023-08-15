@@ -1,6 +1,8 @@
 {
     "editor.codeActionsOnSave": {
-        "source.fixAll": true
+        "source.fixAll": true,
+        "source.organizeImports": true,
+        "addMissingImports": true,
     },
     "eslint.validate": [
         "javascript",
@@ -9,4 +11,12 @@
         "typescriptreact",
         "vue"
     ],
+    "editor.detectIndentation": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.wordWrap": "on",
+    "files.encoding": "utf8",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
 }
